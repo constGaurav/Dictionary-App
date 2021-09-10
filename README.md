@@ -1,7 +1,7 @@
 # Dictionary-App
 English Dictionary app using JavaScript
 
-#### Demo:
+#### Demo: https://mrgauravchaudhary.github.io/Dictionary-App/
 
 ### Screenshots of Web App.
 
