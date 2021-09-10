@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Dictionary - By Gaurav Chaudhary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container main">
+            <h1>Dictionary</h1>
+            <div class="links">
+                <ul>
+                    <li> <a href="https://www.linkedin.com/in/itsgauravchaudhary/" target="blank">
+                            Connect With Me :)
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </i></a> </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Input Section -->
+    <section class="input container">
+        <h2>Find any word exist in the world :)</h2>
+        <div class="form_wrap">
+            <div class="input_wrap">
+                <input type="text" id="input" placeholder="Enter a word">
+                <button id="search">Search</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Output/Result Section -->
+    <section class="data container">
+        <span id="loading">Loading...</span>
+        <p id="def"></p>
+        <div id="audio"></div>
+        <div id="not_found"></div>
+    </section>
+
+
+    <!-- footer -->
+    <p class="love">Made with <i class="fa fa-heart" aria-hidden="true"></i> by Gaurav Chaudhary</p>
+
+    <!-- Script -->
+    <script src="/app.js"></script>
+</body>
+
+</html>
